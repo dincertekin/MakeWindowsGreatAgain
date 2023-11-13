@@ -1,0 +1,5 @@
+Run In PowerShell:
+Get-AppxPackage | Select Name >> .\apps.txt
+Get-AppxPackage *appname* | Remove-AppxPackage
+
+Read TXT File in C and make an action with it(give ID for each app, make them removable.)

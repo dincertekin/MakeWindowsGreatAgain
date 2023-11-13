@@ -1,3 +1,0 @@
-In PowerShell:
-Get-AppxPackage | Select Name >> .\apps.txt
-Get-AppxPackage *appname* | Remove-AppxPackage
