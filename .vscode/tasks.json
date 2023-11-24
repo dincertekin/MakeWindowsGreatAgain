@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "tcc",
+			"args": [
+				"main.c",
+				"-o ${fileBasenameNoExtension}.exe"
+			],
+			"problemMatcher": [],
+			"label": "C Build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
